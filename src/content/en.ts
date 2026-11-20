@@ -1,0 +1,41 @@
+// English content. Services live here: add/remove items freely (keep ids in src/components/icons.ts).
+export default {
+  dir: "ltr",
+  demo: "Demonstration website. All business information is fictional.",
+  nav: { home: "Home", services: "Services", about: "About", contact: "Contact" },
+  cta: { quote: "Request a Quote", explore: "Explore Services", call: "Call us", whatsapp: "WhatsApp", email: "Email", disabled: "Available once a WhatsApp number is configured", menu: "Menu", lang: "العربية" },
+  waMessage: "Hello, I would like to request a quotation for your maintenance services.",
+  meta: { description: "Air conditioning, plumbing, electrical, cleaning and general home maintenance across Egypt." },
+  hero: { eyebrow: "Home maintenance, done properly", title: "One call for every repair your home needs.", text: "Air conditioning, plumbing, electrical work, cleaning and general maintenance, arranged simply through WhatsApp or phone." },
+  servicesTitle: "Our services",
+  servicesIntro: "Everything your home needs, in one place.",
+  learn: "View details",
+  services: [
+    { id: "ac", title: "Air conditioning", desc: "Installation, servicing and repair for split and central units.", benefits: ["Installation and relocation", "Routine cleaning and servicing", "Fault diagnosis and repair"], info: "Servicing before summer helps avoid breakdowns." },
+    { id: "plumbing", title: "Plumbing", desc: "Leaks, blockages, fittings and water heater work.", benefits: ["Leak detection and repair", "Drain unblocking", "Fixture and heater installation"], info: "Describe the problem on WhatsApp and send a photo." },
+    { id: "electrical", title: "Electrical", desc: "Safe repairs, rewiring and fixture installation.", benefits: ["Fault finding", "Sockets, switches and lighting", "Distribution board work"], info: "Switch off the affected circuit until we arrive." },
+    { id: "cleaning", title: "Home cleaning", desc: "Thorough one-off and regular cleaning for apartments and villas.", benefits: ["Deep cleaning", "Move-in and move-out cleaning", "Regular scheduled visits"], info: "Tell us the size of the property for a quote." },
+    { id: "maintenance", title: "General maintenance", desc: "Small repairs and odd jobs handled in a single visit.", benefits: ["Doors, locks and hinges", "Furniture assembly", "Painting touch-ups"], info: "Group several small jobs into one visit." },
+  ],
+  why: { title: "Why choose us", items: [
+    { t: "Clear communication", d: "Tell us the problem and receive a clear quote before work starts." },
+    { t: "One point of contact", d: "Every trade is arranged through a single WhatsApp or phone request." },
+    { t: "Tidy, respectful work", d: "We aim to leave your home as clean as we found it." },
+  ] },
+  steps: { title: "How it works", items: [
+    { t: "Contact us", d: "Message us on WhatsApp or call with a short description." },
+    { t: "Get a quote", d: "We confirm the scope, price and a suitable time." },
+    { t: "Problem solved", d: "Our technician completes the job and checks the result with you." },
+  ] },
+  areas: { title: "Service areas", text: "We cover the areas below. Not listed? Message us and ask." },
+  faq: { title: "Frequently asked questions", items: [
+    { q: "How do I request a service?", a: "Use the WhatsApp or call buttons on this site and describe what you need." },
+    { q: "Do you provide quotes before starting?", a: "Yes. The scope and price are agreed with you before work begins." },
+    { q: "Which areas do you serve?", a: "See the service areas section. Message us to confirm your location." },
+    { q: "Can I book several services together?", a: "Yes, combining jobs in one visit is often more convenient." },
+  ] },
+  final: { title: "Ready to fix it?", text: "Send us a message today and get a quote." },
+  about: { title: "About us", intro: "Delta Home Services is a fictional company created to demonstrate this website template. Replace this text with your customer's real story.", missionTitle: "Our mission", mission: "To make home maintenance simple, transparent and stress-free.", valuesTitle: "Our values", values: ["Honesty in every quote", "Respect for your home", "Reliable follow-through"], approachTitle: "Our approach", approach: "We listen first, explain the options, agree the price, then do the work carefully." },
+  contact: { title: "Contact us", text: "The fastest way to reach us is WhatsApp.", hours: "Opening hours", areas: "Service areas", notSet: "Not configured yet", phone: "Telephone", email: "Email", note: "Demonstration contact details are intentionally blank." },
+  rights: "All rights reserved.",
+};
