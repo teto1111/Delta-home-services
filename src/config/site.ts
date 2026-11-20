@@ -1,7 +1,7 @@
 // SINGLE SOURCE OF TRUTH for business details. Empty values disable the related buttons/links.
 export const site = {
   name: { en: "Delta Home Services", ar: "دلتا لخدمات المنازل" },
-  url: "https://example.com", // replace with your real domain
+  url: "delta-home-services.vercel.app", // replace with your real domain
   phone: "",     // e.g. "+20XXXXXXXXXX"
   whatsapp: "",  // international format, digits only e.g. "20XXXXXXXXXX"
   email: "",
